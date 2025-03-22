@@ -1,11 +1,11 @@
 import express from 'express';
 
-import { currentUserRouter } from './current-user';
+import { currentUserRouter } from './curresntUser';
 import { signInRout } from './signin';
 import { signoutRout } from './signout';
 import { signupRout } from './signup';
 
-import { errorHandler } from '../middleware/error-handler';
+import { errorHandler } from '../middleware/errorHandler';
 
 const router = express.Router();
 
